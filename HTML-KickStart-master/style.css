@@ -1,0 +1,222 @@
+ <!DOCTYPE html>
+<head><title>Webmas</title></head>
+@charset "utf-8"; @charset "utf-8";
+ /*
+	99Lime.com HTML KickStart by Joshua Gatcke
+	style.css 
+	customised by Warren Pherson
+
+*/
+
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+h1,h2,h3,h4,h5,h6
+{
+	font-family: "Arimo", arial, verdana, sans-serif;
+	font-weight:normal;
+}
+h1,h2,h3,p
+{color:white;
+}
+i
+{color:gold;
+}
+#ul
+{font-color:#000000;
+}
+thead th,
+tbody th
+{font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+.menu
+{color:#fff;
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+blockquote{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+.headline 
+{text-align: center;
+position: relative;	
+}
+
+.headline h1 {
+margin-bottom:0;
+}
+
+.headline p {
+	margin-top: 0;
+}
+.vertical
+{position:relative;
+bottom:5px;
+}
+.green{color:green;
+}
+.blue{color:blue;
+}
+
+
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+body{
+margin:0;
+padding:0 0 0 0;
+color:white;
+background:#efefef url(css/img/starring.png);
+font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
+text-shadow: 0 0 1px transparent; /* google font pixelation fix */
+}
+#wrap{
+width:100%;
+margin:30px auto 30px auto;
+background:#000;
+padding:0 2%;
+border:1px solid #ccc;
+}
+
+
+#my-div
+{width    : 100%;
+ height   : auto;
+ overflow : hidden;
+ position : relative;
+ top:115px;
+margin-bottom:105px;
+}
+ 
+#my-iframe
+{border:hide;
+position : relative;
+left     : 0;
+}
+
+#my-div2
+{  
+width    : 100%;
+height   : 100%;
+overflow : hidden;
+position : relative;
+top:90px;
+margin-bottom:85px;
+}
+#si{
+	position:relative;
+	float:right;
+}
+
+
+/* NAV BAR*/
+.navbar
+{
+position:fixed;
+top:0;
+left:0;
+width: 100%;
+background: black; /* Old browsers */
+z-index:1000;
+}
+
+
+
+	.navbar ul{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	}
+
+		.navbar li{
+		margin:0;
+		padding:0;
+		list-style-type:0;
+		display:inline-block;
+		}
+
+		.navbar li a{
+		display:inline-block;
+		color:#000000;
+		padding:1em 1.3em;
+		text-decoration:none;
+		text-transform: uppercase;
+		line-height:100%;
+		font-size: 1.2em;
+		}
+
+.callout
+{
+background:#4598ef;/*#86dc00;*/
+padding:3em 0;
+color:#fff;
+box-shadow:inset 0 0 10px rgba(0,0,0,0.2);
+text-align: center;
+text-shadow:0px 1px 3px rgba(0,0,0,0.2);
+display:block;
+}
+	.callout + div.grid{margin-top:50px;}
+	 a.callout{cursor:pointer;}
+	 .callout i.icon-4x{font-size:6em;}
+	 .callout h4{margin-bottom:30px;}
+	 .callout-top{margin:50px 0 0 0;}
+	 .callout p{margin-bottom:0;}
+	 .callout .button{margin-top:10px;}
+	 .callout.green{background:#19ad0b;/*#86dc00;*/}
+
+#mc_embed_signup
+{
+padding:30px 0;
+}
+
+#ui-preview
+{
+border:5px solid #ddd;
+margin:30px 0;
+display:block;
+}
+.slideshow
+{
+	width:600;
+	height:350;
+}
+#footer
+{
+	text-align : center;
+	padding    : 20px;
+	margin     : 0;
+	border-top : 1px solid #ddd;
+	color      : #999;
+	font-size  : 0.8em;
+	text-shadow: 0px 1px 1px #fff;
+	position   : relative;
+	top        : 0;
+	left       : 0;
+	background : #fff;
+	}
+
+	#link-top{
+ float:right;
+ color:#666;
+ text-decoration:none;
+ display: inline-block;
+ padding:5px 10px;
+ background:#e5e5e5;
+ line-height:100%;
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+ border-radius:3px;
+}
